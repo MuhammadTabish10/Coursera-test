@@ -1,0 +1,88 @@
+
+body 
+{
+  background-image: url("https://images.unsplash.com/photo-1585331664784-6aeeceab87e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+  width: 100%;
+}
+
+h1
+{
+  color: black;
+  font-size: 60px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+
+h2
+{
+  column-span: 10px;
+  display: inline;
+  color: black;
+  font-size: 25px;
+  text-align: right;
+  border: 3px solid black;
+}
+
+
+div
+{
+  background-color: grey;
+	font-size: 16px;
+}
+
+#colour1{
+  background-color: pink;
+  margin-left: 190px;
+}
+
+#colour2{
+  background-color: red;
+  margin-left: 195px;
+}
+
+#colour3{
+  background-color: yellow;
+  margin-left: 265px;
+}
+
+
+
+@media (min-width: 1200px) {
+  .column1 {
+    float: left;
+    border: 5px solid black;
+    padding: 5px;
+    margin: 5px;
+  }
+
+
+  .column1 {
+    width: 30.5%;
+  }
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 950px) and (max-width: 1199px) {
+  .column2{
+    float: left;
+    border: 5px solid black;
+    padding: 5px;
+  }
+
+
+  .column2 {
+    width: 50%;
+  }
+
+
+}
+
